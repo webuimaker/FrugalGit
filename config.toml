@@ -1,0 +1,121 @@
+# Site settings
+baseurl = "/"
+languageCode = "en-us"
+title = "Frugal Design"
+#googleAnalytics = "UA-35321282-1"
+
+
+# navigation
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  URL = "/"
+  identifier = "home"
+  weight = 1
+
+  [[menu.main]]
+  name = "About"
+  URL = "#about"
+  identifier = "about"
+  weight = 2
+
+  [[menu.main]]
+  name = "Clients"
+  URL = "#client"
+  identifier = "client"
+  weight = 3
+  
+  [[menu.main]]
+  name = "Services"
+  identifier = "planos"
+  url = "#services"
+  weight = 4
+
+
+  [[menu.main]]
+  name = "Pricing"
+  identifier = "pricing"
+  url = "#pricing"
+  weight = 5
+
+  [[menu.main]]
+  name = "Reviews"
+  URL = "#reviews"
+  identifier = "reviews"
+  weight = 6
+
+
+[params]
+
+  logo = "img/logo.png"
+  # To provide some metadata for search engines feel free to add a few information about you and your website.
+  name = "Frugal Consultancy & Design Limited"
+  description = "Frugal is an Engineering Design house that works smart to reduce & eliminate waste, risk, and complication from your projects: We offer BIM / PIM Model Management, Design Coordination, Engineering Design, and occasionally Technical & Business Software Development."
+  email = ""
+
+
+  # Hero 
+[params.hero]
+    title = "frugal"
+    subtitle = "adjective  | ˈfrü-gəl"
+	text = "Cost-effective freelance engineering design using 3D CAD & CAE modelling"
+    image = "img/banner.jpg"
+
+    
+  # About 
+[params.about]
+    title = "About Frugal"
+	text = "Frugal Consultancy &amp; Design is a Yorkshire based company that was established in 2012 by Thomas Hartley, through which to offer freelance design engineering services. Tom set out to provide a cost-effective, flexible yet reliable design service to clients for whom traditional engineering consultancy hadn’t really delivered good value in the past."
+    textBottom = "Tom is a Chartered Mechanical Engineer, qualified Product Design & Manufacturing Engineer, and a highly skilled 3D modeller. As a member of both the Institute of Mechanical Engineering and the Institute of Engineering Designers, he works to their professional standards and upholds the ethical principles published by the Engineering Council and Royal Academy of Engineering."
+    image = "img/banner.jpg"
+    buttonText = "View my profile on Linkedin"
+    buttonUrl = "#"
+
+[[params.about.imageLists]]
+url= "img/img1.png"
+alt= "im1"
+[[params.about.imageLists]]
+url= "img/img2.png"
+alt= "im1"
+[[params.about.imageLists]]
+url= "img/img3.png"
+alt= "im1"
+[[params.about.imageLists]]
+url= "img/img4.png"
+alt= "im1"
+
+  # Clients 
+[params.clients]
+    title = "Our Clients"
+	subTitle = "We offer flexible &amp; cost-effective freelance engineering design support to:"   
+    buttonText = "Book a call to find out if we're a good fit!"
+    buttonUrl = "#"
+
+[[params.clients.boxLists]]
+icon= "ri-brush-4-line"
+title= "Manufacturers"
+text= "We can provide digital design innovation to develop new products, or improve your existing ones."
+
+
+[[params.clients.boxLists]]
+icon= "ri-calendar-check-line"
+title= "D&amp;B Contractors"
+text= "We can build and manage 3D coordination models to win bids &amp; improve contract delivery."
+
+[[params.clients.boxLists]]
+icon= "ri-movie-2-line"
+title= "Facility Managers"
+text= "We can deliver facility &amp; project coordination models, for more efficient &amp; reliable facilities management."
+
+
+[[params.clients.belowSection]]
+title= "Our aim is to help you:"
+
+[[params.clients.belowSection.lists]]
+ text = " To modernize, innovate, and become more sustainable;"
+[[params.clients.belowSection.lists]]
+ text = " To modernize, innovate, and become more sustainable;"
+
+[[params.clients.belowSection.lists]]
+ text = " To modernize, innovate, and become more sustainable;"

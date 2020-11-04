@@ -1,0 +1,64 @@
+<!-- ======= Clients Section ======= -->
+<section id="client" class="clients">
+    <div class="about-boxes">
+      <div class="container" data-aos="fade-up">
+          <div class="row">
+            <div class="col-md-12 section-title">
+                <h2> {{ .Site.Params.clients.title }}</h2>
+                <h5 class="mt-3"> {{ .Site.Params.clients.subTitle }}</h5>
+            </div>
+        </div>
+                    
+        <div class="row">
+          {{range .Site.Params.clients.boxLists}}
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="card">
+              <div class="card-icon">
+                <i class="{{.icon}}"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">{{.title | markdownify}}</a></h5>
+                <p class="card-text">{{.text | markdownify }}</p>
+              </div>
+            </div>
+          </div>
+
+        {{end}}
+
+    
+        </div>
+        
+        <div class="row">
+        
+          
+
+
+
+            <div class="col-md-6 text-left">
+                <h3>Our aim is to help you:</h3>
+                
+                <ul class="contentlist">
+                  <li><i class="ri-check-double-line"></i> To modernize, innovate, and become more sustainable;</li>
+                  <li><i class="ri-check-double-line"></i> To minimize waste and become leaner than your competitors;</li>
+                  <li><i class="ri-check-double-line"></i> To maximize value-creation and your return-on-investment in us.</li>
+                </ul>
+            </div>
+            
+            <div class="col-md-6 text-left">
+                <h3>We’re able to do this best when we work:</h3>
+                
+                <ul class="contentlist">
+                  <li><i class="ri-check-double-line"></i> Mostly from our own well-equipped office in Hull;</li>
+                  <li><i class="ri-check-double-line"></i> On a fixed-scope / fixed-price basis;</li>
+                  <li><i class="ri-check-double-line"></i> In an open, honest, collaborative &amp; mutually respectful way.</li>
+                </ul>
+            </div>
+
+            
+        </div>
+
+        <div class="mt-5"><a href="{{.Site.Params.clients.buttonUrl}}" class="btn-learn-more"> {{.Site.Params.clients.buttonText}} </a></div>
+      </div>
+    </div>
+</section><!-- End Clients Section -->

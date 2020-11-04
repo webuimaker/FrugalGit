@@ -1,0 +1,43 @@
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="/"><img src="{{ .Site.Params.logo | absURL }}" class="img-fluid" alt="{{ .Site.Title }}"></a></h1>
+
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          {{ $currentPage := . }}
+          {{ range .Site.Menus.main }}
+            {{ if .HasChildren }}
+              <li class="dropdown {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" >{{ .Name }}
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                      {{ range .Children }}
+                      <li {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}>
+                        <a  href="{{ .URL }}">{{ .Name }} </a>
+                      </li>
+                      
+                      {{ end }}
+                </ul>
+              </li>
+            {{ else }}
+              <li {{if ($currentPage.IsMenuCurrent "main" .) }}class="active"{{ end }}>
+                  <a  href="{{ .URL }}" {{ if eq .Identifier  "Contacto" }} data-toggle="modal" {{end}}>{{ .Name }}   </a>
+              </li>
+            {{ end }}
+          {{ end }}
+
+            <li class="active"><a href="index.html"></a></li>
+         
+
+
+       
+		</ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->

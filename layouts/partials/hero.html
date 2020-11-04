@@ -1,0 +1,8 @@
+<!-- ======= Hero Section ======= -->
+  <section id="hero" style="background-image: url({{  .Site.Params.hero.image }}) ;">
+    <div class="hero-container" data-aos="fade-up" data-aos-delay="150">
+      <h1>{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</h1>
+      <h2>{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</h2>
+	    <p>  {{ with .Site.Params.hero.text }}{{ . | markdownify }}{{ end }}</p>
+    </div>
+  </section><!-- End Hero -->
