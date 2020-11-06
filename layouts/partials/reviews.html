@@ -1,40 +1,32 @@
 <!-- ======= Reviews Section ======= -->
-<section id="reviews" class="testimonials">
-    <div class="container" data-aos="fade-up">
-      <div class="owl-carousel testimonials-carousel">
+<section id="reviews" class="testimonials " style="background: url({{.Site.Params.testimonialsBackground.image}}) no-repeat;  ">
+    <div class="container d-flex sec-height" data-aos="fade-up">
+      <div class="row justify-content-center align-self-center overflow-hidden x">
+        <div class="owl-carousel testimonials-carousel">
 
-        <div class="testimonial-item">
-          <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-          <h3>Nuclear Plant, Cheshire</h3>
-          <h4>Programme Manager</h4>
-          <p>
-            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-            Tom developed a full 3D building &amp; process systems model that enabled comprehensive design construction &amp; maintenance reviews to be carried out early in the project life-cycle. It really shone a light on things, highlighting risks we hadn’t even seen, and allowed us to hold our sub-contractors to account with much less effort. We were able to use the model for many other stakeholder engagements and briefing sessions too, which were always well-received &amp; productive.
-            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-          </p>
+          {{range .Site.Params.testimonials}}
+  
+          <div class="testimonial-item">
+            {{if .image }}
+            <img src="{{.image | absURL }}" class="testimonial-img" alt="">
+            {{end}}
+            <h3>{{.name | safeHTML }}  {{.Site.Params.testimonialsBackground.image}}</h3>
+            <h4>{{.position | safeHTML  }}</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              {{.text | safeHTML  }}
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+        {{end}}
+  
+         
         </div>
-
-        <div class="testimonial-item">
-          <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-          <h3>D&amp;B Contractor, Hull</h3>
-          <h4>Designer</h4>
-          <p>
-            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-            Frugal are able to consume &amp; make sense of huge amounts of information in a short space of time, always coming back to us with content we can use directly in our proposals. They’ve helped us impress clients &amp; win work on such a diverse range of bids over the years: bridge access &amp; maintenance; bulk handling &amp; storage; hazardous waste processing; heat-recovery systems; even a lucrative (and long-shot) place on a huge frame-work contract at one point!
-            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-          </p>
-        </div>
-
-        <div class="testimonial-item">
-          <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-          <h3>Loading Equipment Fabricator, Chesterfield</h3>
-          <h4>Managing Director</h4>
-          <p>
-            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-            Tom developed a baseline information model on our biggest selling product, which allowed us to view it in ways we’d never thought about before. He helped us brainstorm all kinds of new ideas, which he worked up into several design models for comparison with the baseline. Through many small design &amp; production changes, we were able to eliminate at least 20% of the product’s overall manufacturing cost, without affecting the end-user experience at all!
-            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-          </p>
-        </div>
+       
+      
+      
       </div>
+      
+    
     </div>
   </section><!-- End Pricing Section -->

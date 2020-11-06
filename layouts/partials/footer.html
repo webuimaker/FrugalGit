@@ -3,7 +3,8 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>2012-2020</span></strong> Frugal Consultancy &amp; Design Ltd.<br>Registered in England &amp; Wales | Company No. 08241771 | VAT No. GB 166 493 575
+        &copy; Copyright <strong><span>2012-{{ now.Format "2006"}}</span></strong>
+        {{.Site.Params.footer.copyright | safeHTML }}
 
       </div>
     </div>
