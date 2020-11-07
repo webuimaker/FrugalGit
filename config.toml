@@ -11,7 +11,7 @@ title = "Frugal Design"
 
   [[menu.main]]
   name = "Home"
-  URL = "/"
+  URL = "/#hero"
   identifier = "home"
   weight = 1
 
@@ -55,6 +55,13 @@ title = "Frugal Design"
   description = "Frugal is an Engineering Design house that works smart to reduce & eliminate waste, risk, and complication from your projects: We offer BIM / PIM Model Management, Design Coordination, Engineering Design, and occasionally Technical & Business Software Development."
   email = ""
 
+[params.author]
+  name= "Thomas H."
+  image= "img/HireMe_ProfilePic.jpg"
+  position= "Chartered Design  Engineer"
+  expert= "3D CAD / CAE Expert" 
+  rating= "5"
+
 
   # Hero 
 [params.hero]
@@ -93,9 +100,7 @@ link= "https://www.engc.org.uk/"
   # Clients 
 [params.clients]
     title = "Our Clients"
-	  subTitle = "We offer flexible &amp; cost-effective freelance engineering design support to:"   
-    buttonText = "Book a call to find out if we're a good fit!"
-    buttonUrl = "#"
+	  subTitle = "We offer flexible &amp; cost-effective freelance engineering design support to:"  
 
 [[params.clients.boxLists]]
 icon= "img/Clients_FM.svg"
@@ -197,14 +202,14 @@ text= "We have a range of pre-packaged, fixed-price offers that provide a fair o
 image= "img/Pricing_Fiverr.jpg"
 alt =""
 buttonText = "View pre-packaged projects on Fiverr"
-buttonUrl= "#"
+buttonUrl= "https://www.fiverr.com/tphartley"
 
 [[params.pricing.list]]
 text= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat ex ea commodo consequat."
 image= "img/Pricing_Direct.jpg"
 alt =""
 buttonText = "Request a direct quote for best rates"
-buttonUrl= "#"
+buttonUrl= "https://calendly.com/tom-frugaldesign/quote-me"
 
 
 
@@ -235,8 +240,41 @@ text= "Tom developed a baseline information model on our biggest selling product
 [params.footer]
 copyright = " Frugal Consultancy &amp; Design Ltd.<br>Registered in England &amp; Wales | Company No. 08241771 | VAT No. GB 166 493 575"
 
-[params.buttonUrl]
-upwork=""
-fiver=""
-call=""
-quote=""
+[params.button1]
+caption = "Hire me on Fiverr"
+url= "fiverr.com/tphartley"
+[params.button2]
+caption = "Hire me on Upwork"
+url= "upwork.com/fl/thomash1089"
+
+[params.button3]
+caption = "Hire me direct"
+url= "calendly.com/tom-frugaldesign/hire-me"
+
+[params.button4]
+caption = "View my profile on LinkedIn"
+url= "linkedin.com/in/tphartley"
+
+[params.button5]
+caption = "Book a call to find out if we're a good fit!"
+url= "https://calendly.com/tom-frugaldesign/discovery"
+
+[params.button6]
+caption = "View our portfolio on Upwork"
+url= "upwork.com/fl/thomash1089"
+
+[params.button7]
+caption = "Book a call today to discuss your project"
+url= "calendly.com/tom-frugaldesign/discovery"
+
+[params.button8]
+caption = "View pre-packaged projects on Fiverr"
+url= "https://www.fiverr.com/tphartley"
+
+[params.button9]
+caption = "Request a direct quote for best rates"
+url= "https://calendly.com/tom-frugaldesign/quote-me"
+
+[params.button10]
+caption = "Book a call to discuss your project"
+url= "calendly.com/tom-frugaldesign/discovery"

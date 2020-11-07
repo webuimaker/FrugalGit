@@ -201,4 +201,22 @@
     aos_init();
   });
 
+
+  
+$(document).ready(function () {
+  $(".colaps-arrow").click(function () {
+      $(".thomas-info").toggleClass("right-hide");
+      if ($('.thomas-info').hasClass('right-hide')) {
+        $(".colaps-arrow i").removeClass("fa-angle-right");
+        $(".colaps-arrow i").addClass("fa-angle-left");       
+      }else {
+        $(".colaps-arrow i").addClass("fa-angle-right");
+        $(".colaps-arrow i").removeClass("fa-angle-left");
+      }
+
+      
+      return false;
+  });
+});
+
 })(jQuery);

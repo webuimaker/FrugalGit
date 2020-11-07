@@ -10,10 +10,47 @@
     </div>
   </footer><!-- End Footer -->
 
+  <div class="thomas-info">
+    <span class="colaps-arrow"><i class="fa fa-angle-right"></i></span>
+    <div class="row">
+      <div class="col-8">
+        <div class="row">
+          <div class="col-3">
+            <img src="{{.Site.Params.author.image}}" alt="{{.Site.Params.author.name}}" class="img-fluid">
+          </div>
+          <div class="col-9">
+            <p class="name">{{.Site.Params.author.name}}</p>
+            <p class="pos">{{.Site.Params.author.position}}</p>
+            <p class="expert">{{.Site.Params.author.expert}}</p>
+          </div>
+        </div>
+        
+      </div>
+      <div class="col-4">
+      {{$limtStar := .Site.Params.author.rating}}
+
+        {{range seq   $limtStar }}
+        <i class="fa fa-star"></i>
+
+        {{end}}
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-11">
+        <p class="mt-1"><a href="{{.Site.Params.button1.url | absURL }}" class="btn-learn-more  btn-fiver d-block text-center">{{.Site.Params.button1.caption}}</a></p>
+        <p class="mt-1"><a href="{{.Site.Params.button2.url | absURL }}" class="btn-learn-more  service-btn1 d-block text-center">{{.Site.Params.button2.caption}}</a></p>
+        <p class="mt-1"><a href="{{.Site.Params.button3.url | absURL }}" class="btn-learn-more  btn-fiver d-block text-center">{{.Site.Params.button3.caption}}</a></p>
+      </div>
+    </div>
+  </div>
+
   <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
   <div id="preloader"></div>
 
   {{ partial "js.html" . }}
+
+
 
 </body>
 

@@ -40,7 +40,7 @@
                         {{end}}
                       </ul>
                       
-                      <div class=" text-left"><a href="#" class="btn-learn-more service-btn1">View our portfolio on Upwork</a></div>
+                      <div class=" text-left"><a href="{{.Site.Params.button6.url | absURL}}" class="btn-learn-more service-btn1">{{.Site.Params.button6.caption  | safeHTML }}</a></div>
                   </div>
                   
                   <div class="col-md-6 text-left">
@@ -66,7 +66,7 @@
                           </div>
                       </div>
                       
-                      <div class=" text-left"><a href="#" class="btn-learn-more  service-btn2">Book a call to find out if we're a good fit!</a></div>
+                      <div class=" text-left"><a href="{{.Site.Params.button5.url | absURL}}" class="btn-learn-more  service-btn2">{{.Site.Params.button5.caption | safeHTML}}</a></div>
                   </div>
               </div>
               
