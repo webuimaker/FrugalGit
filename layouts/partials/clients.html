@@ -4,12 +4,13 @@
       <div class="container" data-aos="fade-up">
           <div class="row">
             <div class="col-md-12 section-title mb-4 text-left">
-                <h2 class="text-left"> {{ .Site.Params.clients.title }}</h2>
-                <h5 class="mt-4"> {{ .Site.Params.clients.subTitle | safeHTML }}</h5>
+			<div class="section-title">
+                <h2 class="text-left"> {{ .Site.Params.clients.title }}</h2></div>
+                <h5 class="mt-2"> {{ .Site.Params.clients.subTitle | safeHTML }}</h5>
             </div>
         </div>
                     
-        <div class="row">
+        <div class="row mt-4">
           
 
           {{range .Site.Params.clients.boxLists}}
@@ -31,34 +32,42 @@
 
     
         </div>
-        
+        <div class="row">
         
           {{ range $index, $element := .Site.Params.clients.belowSection }}
-          <div class="row">
-              <div class="col-md-5 {{if eq  $index 1}} order-1 {{end}}"   >
-                <img src="{{.image | absURL}}" alt="{{.title}}" class="img-fluid">
-              </div>
+
+          <div class="col-md-6 col-lg-6">
+
+            <div class=""   >
+              <img src="{{.image | absURL}}" alt="{{.title}}" class="img-fluid w-100">
+            </div>
+          
+          <div class=" text-left pt-3">
             
-            <div class="col-md-7 text-left pt-5">
-              
-              <h3>{{.title}} </h3>
-              <ul class="contentlist">
-              {{ range .lists }}
-              <li><i class="ri-check-double-line"></i> {{.text}}</li>
-              {{end}}
+            <h3>{{.title}} </h3>
+            <ul class="contentlist">
+            {{ range .lists }}
+            <li><i class="ri-check-double-line"></i> {{.text}}</li>
+            {{end}}
+           
              
-               
-              </ul>
-          </div>
+            </ul>
         </div>
+          <div class="mt-5"><a href="{{.btnUrl}}" class="btn-learn-more d-block {{.btnKlass}}" target="_blank"> {{.btnText | safeHTML}} </a></div>
+
+          </div>
+          
+              
           {{end}}
+          
+        </div>
           
          
 
             
        
 
-        <div class="mt-5"><a href="{{.Site.Params.button5.url | absURL}}" class="btn-learn-more" target="_blank"> {{.Site.Params.button5.caption | safeHTML}} </a></div>
+       
       </div>
     </div>
 </section><!-- End Clients Section -->

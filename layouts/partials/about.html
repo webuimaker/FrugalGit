@@ -1,6 +1,6 @@
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about sec-height">
+    <section id="about" class="about sec-height py-75">
         <div class="container" data-aos="fade-up">
           <div class="row">
             <div class="col-lg-12">
@@ -10,7 +10,7 @@
             </div>	
                   
             <div class="col-lg-12 pt-3 pt-lg-0 content">
-              <p class="font-italic mb-5">{{.Site.Params.about.text | markdownify}}</p>
+              <h5 class="mb-5">{{.Site.Params.about.text | markdownify}}</h5>
               
               <div class="row">
                   {{range .Site.Params.about.imageLists}}
@@ -24,9 +24,9 @@
               </div>
               <div class="clearfix"></div>
               
-              <p class="mt-4">{{.Site.Params.about.textBottom | markdownify}} </p>
+              <h5 class="my-4">{{.Site.Params.about.textBottom | markdownify}} </h5>
               
-              <div class="mt-5"><a href="{{.Site.Params.about.buttonUrl }}" class="btn-learn-more" target="_blank">{{.Site.Params.about.buttonText | markdownify}}</a>  </div>
+              <div class="mt-5rem text-right"><a href="{{.Site.Params.about.buttonUrl }}" class="btn-learn-more btn-linkedin" target="_blank">{{.Site.Params.about.buttonText | markdownify}}</a>  </div>
               
             </div>
   

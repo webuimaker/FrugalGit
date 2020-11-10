@@ -67,7 +67,7 @@ title = "Frugal Design"
 [params.hero]
     title = "frugal"
     subtitle = "adjective  | ˈfrü-gəl"
-	text = "Cost-effective freelance engineering design using 3D CAD & CAE modelling"
+	  text = "Frugal is a Digital Engineering Design house that works smart to <br> reduce & eliminate wastes, risks & complications from your projects"
     image = "img/banner.jpg"
 
     
@@ -113,6 +113,7 @@ icon= "img/Clients_DB.svg"
 title= "D&amp;B Contractors"
 text= "We can build and manage 3D coordination models to win bids &amp; improve contract delivery."
 
+
 [[params.clients.boxLists]]
 icon= "img/Clients_M.svg"
 title= "Facility Managers"
@@ -122,12 +123,16 @@ text= "We can deliver facility &amp; project coordination models, for more effic
 [[params.clients.belowSection]]
 title= "Our aim is to help you:"
 image= "img/Client_Aims.jpg"
+btnText= "View our portfolio on Upwork"
+btnUrl= "upwork.com/fl/thomash1089"
+btnKlass = "service-btn1"
+
+
 
 [[params.clients.belowSection.lists]]
  text = " To modernize, innovate, and become more sustainable;"
 [[params.clients.belowSection.lists]]
  text = " To minimize waste and become leaner than your competitors;"
-
 [[params.clients.belowSection.lists]]
  text = "To maximize value-creation and your return-on-investment in us."
 
@@ -136,6 +141,8 @@ image= "img/Client_Aims.jpg"
 [[params.clients.belowSection]]
 title= "We’re able to do this best when we work:"
 image= "img/Client_Reqs.jpg"
+btnText= "Book a call to find out if we're a good fit!"
+btnUrl= "https://calendly.com/tom-frugaldesign/discovery"
 
 [[params.clients.belowSection.lists]]
  text = " Mostly from our own well-equipped office in Hull;"
@@ -154,41 +161,50 @@ image= "img/Client_Reqs.jpg"
 
 [[params.services.boxLists]]
 image= "img/Services_3DModelling.svg"
-title= "D&amp;B Contractors"
+title= "3D CAD &amp;CAE MODELLING"
+text= "Lorem ipsum dolor sit amet…"
 [[params.services.boxLists]]
 image= "img/Services_EngDesign.svg"
 title= "ENGINEERING <br>DESIGN"
+text= "Lorem ipsum dolor sit amet…"
 [[params.services.boxLists]]
 image= "img/Services_Coordination.svg"
 title= "3D COORDINATION <br>MODEL MANAGEMENT"
+text= "Lorem ipsum dolor sit amet…"
 
 
-[[params.skills]]
-text = "Mechanical Design"
-[[params.skills]]
-text = "Static Structural Design"
-[[params.skills]]
-text = "Product Design"
-[[params.skills]]
-text = "Plant, Site &amp; Construction Design"
+
+[[params.services.belowSection]]
+title= "Our aim is to help you:"
+image= "img/Client_Aims.jpg"
+btnText= "View our portfolio on Upwork"
+btnUrl= "upwork.com/fl/thomash1089"
+btnKlass = "service-btn1"
 
 
-[[params.experience]]
-text = "Nuclear"
-[[params.experience]]
-text = "Materials Handling"
-[[params.experience]]
-text = "Bridges"
-[[params.experience]]
-text = "Renewables"
-[[params.experience]]
-text = "Manufacturing"
-[[params.experience]]
-text = "Construction"
-[[params.experience]]
-text = "Temporary Works"
-[[params.experience]]
-text = "Access Equipment"
+
+[[params.services.belowSection.lists]]
+ text = " To modernize, innovate, and become more sustainable;"
+[[params.services.belowSection.lists]]
+ text = " To minimize waste and become leaner than your competitors;"
+[[params.services.belowSection.lists]]
+ text = "To maximize value-creation and your return-on-investment in us."
+
+
+ 
+[[params.services.belowSection]]
+title= "We’re able to do this best when we work:"
+image= "img/Client_Reqs.jpg"
+btnText= "Book a call to find out if we're a good fit!"
+btnUrl= "https://calendly.com/tom-frugaldesign/discovery"
+
+[[params.services.belowSection.lists]]
+ text = " Mostly from our own well-equipped office in Hull;"
+[[params.services.belowSection.lists]]
+ text = " On a fixed-scope / fixed-price basis;"
+
+[[params.services.belowSection.lists]]
+ text = "In an open, honest, collaborative & mutually respectful way."
 
 
 # Pricing
@@ -203,6 +219,7 @@ image= "img/Pricing_Fiverr.jpg"
 alt =""
 buttonText = "View pre-packaged projects on Fiverr"
 buttonUrl= "https://www.fiverr.com/tphartley"
+buttonKlass= "btn-fiver"
 
 [[params.pricing.list]]
 text= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat ex ea commodo consequat."
@@ -210,6 +227,7 @@ image= "img/Pricing_Direct.jpg"
 alt =""
 buttonText = "Request a direct quote for best rates"
 buttonUrl= "https://calendly.com/tom-frugaldesign/quote-me"
+buttonKlass= "btn-call"
 
 
 

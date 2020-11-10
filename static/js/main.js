@@ -157,7 +157,9 @@
     autoplay: true,
     dots: true,
     loop: true,
-    items: 1
+    nav:true,
+    items: 1,
+    navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
   });
 
   // Porfolio isotope and filter
@@ -207,11 +209,11 @@ $(document).ready(function () {
   $(".colaps-arrow").click(function () {
       $(".thomas-info").toggleClass("right-hide");
       if ($('.thomas-info').hasClass('right-hide')) {
-        $(".colaps-arrow i").removeClass("fa-angle-right");
-        $(".colaps-arrow i").addClass("fa-angle-left");       
+        $(".colaps-arrow i").removeClass("fa-angle-down");
+        $(".colaps-arrow i").addClass("fa-angle-up");       
       }else {
-        $(".colaps-arrow i").addClass("fa-angle-right");
-        $(".colaps-arrow i").removeClass("fa-angle-left");
+        $(".colaps-arrow i").addClass("fa-angle-down");
+        $(".colaps-arrow i").removeClass("fa-angle-up");
       }
 
       
