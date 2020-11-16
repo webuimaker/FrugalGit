@@ -3,60 +3,55 @@
     <div class="about-boxes">
       <div class="container" data-aos="fade-up">
           <div class="row">
-            <div class="col-md-12 section-title mb-4 text-left">
-			<div class="section-title">
-                <h2 class="text-left"> {{ .Site.Params.clients.title }}</h2></div>
+             <div class="col-md-12 section-title mb-4 text-left">
+                <div class="section-title">
+                  <h2 class="text-left"> {{ .Site.Params.clients.title }}</h2>
+                </div>
                 <h5 class="mt-2"> {{ .Site.Params.clients.subTitle | safeHTML }}</h5>
-            </div>
-        </div>
-                    
-        <div class="row mt-4">
-          
-
+              </div>
+          </div>                    
+          <div class="row mt-4">
           {{range .Site.Params.clients.boxLists}}
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="card">
-              <div class="card-icon">
-              
-                <img src="{{.icon | absURL}}" alt="{{.title}}" >
-              </div>
-              <div class="card-body">
-                <h5 class="card-title"><a href="">{{.title | markdownify}}</a></h5>
-                <p class="card-text">{{.text | markdownify }}</p>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+              <div class="card">
+                <div class="card-icon">
+                
+                  <img src="{{.icon | absURL}}" alt="{{.title}}" >
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"><a href="">{{.title | markdownify}}</a></h5>
+                  <p class="card-text">{{.text | markdownify }}</p>
+                </div>
               </div>
             </div>
-          </div>
-
-        {{end}}
+          {{end}}
 
     
         </div>
-        <div class="row">
-        
+        <div class="row">        
           {{ range $index, $element := .Site.Params.clients.belowSection }}
-
-          <div class="col-md-6 col-lg-6">
-
-            <div class=""   >
-              <img src="{{.image | absURL}}" alt="{{.title}}" class="img-fluid w-100">
+            <div class="col-md-6 col-lg-6">
+              <div class="">
+                <img src="{{.image | absURL}}" alt="{{.title}}" class="img-fluid">
+              </div>          
+              <div class=" text-left pt-3">            
+                  <h3>{{.title}} </h3>
+                  <ul class="contentlist">
+                  {{ range .lists }}
+                    <li><i class="ri-check-double-line"></i> {{.text}}</li>
+                  {{end}}
+                </ul>
             </div>
-          
-          <div class=" text-left pt-3">
-            
-            <h3>{{.title}} </h3>
-            <ul class="contentlist">
-            {{ range .lists }}
-            <li><i class="ri-check-double-line"></i> {{.text}}</li>
-            {{end}}
-           
-             
-            </ul>
-        </div>
-          <div class="mt-5"><a href="{{.btnUrl}}" class="btn-learn-more d-block {{.btnKlass}}" target="_blank"> {{.btnText | safeHTML}} </a></div>
 
-          </div>
-          
+            {{if eq $index 1 }}            
+              <div class="mt-5"><a href="#" class="btn-learn-more d-block {{.btnKlass}}" data-toggle="modal" data-target="#basicExampleModal"> {{.btnText | safeHTML}} </a></div>
+            {{else}}
+              <div class="mt-5"><a href="{{.btnUrl}}" class="btn-learn-more d-block {{.btnKlass}}" target="_blank"> {{.btnText | safeHTML}}  </a></div>
+            {{end}}
+
+
+
+            </div>
               
           {{end}}
           

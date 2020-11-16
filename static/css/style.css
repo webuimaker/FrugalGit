@@ -37,10 +37,10 @@ h1, h2, h3, h4, h5, h6 {
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
-  position: fixed;
+  /* position: fixed;
   display: none;
    bottom: 15px;
-  z-index: 99999;
+  z-index: 99999; */
 }
 
 .back-to-top i {
@@ -332,7 +332,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: #333;
 }
 
 .mobile-nav {
@@ -457,7 +457,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-.newhero{position:absolute; top:300px;}
+.newhero{position:absolute; top:300px; padding-right: 15px;}
 
 #hero h1 {
   margin: 0 0 10px 0;
@@ -533,11 +533,12 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
+    font-size: 60px;
     line-height: 36px;
+    margin-bottom: 30px;
   }
   #hero h2 {
-    font-size: 18px;
+    font-size: 36px;
     line-height: 24px;
     margin-bottom: 30px;
   }
@@ -891,7 +892,7 @@ section {
 
 @media (max-width: 768px) {
   .clients img {
-    max-width: 40%;
+    max-width: 100%;
   }
 }
 
@@ -939,6 +940,10 @@ section {
     padding: 0;
     line-height: 1;
     font-size: 36px;
+  }
+
+  .clients .card{
+    margin-bottom: 60px;
   }
 }
 
@@ -1794,12 +1799,12 @@ section {
 }
 .colaps-arrow {
   border: 1px solid #d9d9d9;
-  width: 25px;
+  /* width: 25px; */
   height: 30px;
-  line-height: 30px;
+  line-height: 20px;
   display: inline-block;
   text-align: center;
-  font-size: 18px;
+  font-size: 12px;
   margin-top: -40px;
   background: #fff;
   position: absolute;
@@ -1807,6 +1812,13 @@ section {
   cursor: pointer;
   color: #000;
   margin-left: -11px;
+  padding: 2px 5px 5px;
+  text-transform: uppercase;
+  right: -1px;
+  font-weight: 600;
+}
+.colaps-arrow  i {
+  font-size: 20px;
 }
 
 .colaps-arrow .arrow-icon{
@@ -1918,4 +1930,43 @@ section {
   border: 2px solid rgb(180,205,55) !important;
   color: #fff;
 
+}
+
+
+.btn-red{
+  background: rgb(204,0,0);
+  border: solid transparent 2px !important;
+}
+.btn-red:hover{
+  background: rgb(204,0,0);
+  border: solid rgb(180,205,55) 2px !important;
+}
+
+
+.btn-orange{
+  background: rgb(255,102,0);
+  border: solid transparent 2px !important;
+}
+.btn-orange:hover{
+  background: rgb(255,150,80);
+  border: solid rgb(180,205,55) 2px !important;
+}
+
+.btn-green{
+  background: rgb(0,128,0);
+  border: solid transparent 2px !important;
+}
+.btn-green:hover{
+  background: rgb(0,175,0);
+  border: solid rgb(180,205,55) 2px !important;
+}
+
+
+.btn-blue{
+  background: rgb(1,119,181);
+  border: solid transparent 2px !important;
+}
+.btn-blue:hover{
+  background: rgb(1,119,181);
+  border: solid rgb(0,165,245) 2px !important;
 }

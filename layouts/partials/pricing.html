@@ -13,11 +13,11 @@
           
           <div class="row">
             {{range $index, $element :=  .Site.Params.pricing.list }}
-              <div class="col-md-6">
+              <div class="col-md-6 mb-3">
                   <figure><img src="{{.image | absURL }}" alt="{{.alt}}" class="img-fluid"></figure>
                   <p>{{.text}}</p>
 
-                  <div class="mt-5"><a href="{{.buttonUrl}}" class="btn-learn-more-1 {{.buttonKlass}}">{{.buttonText}}</a></div>
+                  <div class="mt-5"><a href="{{.buttonUrl}}" class="btn-learn-more d-block text-center {{.buttonKlass}}">{{.buttonText}} </a></div>
               </div>
             {{end}}
           </div>

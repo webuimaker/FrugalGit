@@ -15,8 +15,8 @@
               <div class="row">
                   {{range .Site.Params.about.imageLists}}
                   
-                    <div class="col-md-3">
-                        <div class="bdrbox"><a href="{{.link}}" target="_blank"><img src="{{.url | absURL }}" alt="{{.alt}}"></a></div>
+                    <div class="col-md-3 mb-2">
+                        <div class="bdrbox"><a href="{{.link}}" target="_blank" class="d-block text-center"><img src="{{.url | absURL }}" alt="{{.alt}}"></a></div>
                     </div>
 
                   {{end}}
@@ -26,7 +26,7 @@
               
               <h5 class="my-4">{{.Site.Params.about.textBottom | markdownify}} </h5>
               
-              <div class="mt-5rem text-right"><a href="{{.Site.Params.about.buttonUrl }}" class="btn-learn-more btn-linkedin" target="_blank">{{.Site.Params.about.buttonText | markdownify}}</a>  </div>
+              <div class="mt-5rem text-right"><a href="{{.Site.Params.about.buttonUrl }}" class="btn-learn-more btn-blue" target="_blank">{{.Site.Params.about.buttonText | markdownify}}</a>  </div>
               
             </div>
   

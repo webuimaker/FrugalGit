@@ -15,7 +15,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="IconEPC.svg">
+   sodipodi:docname="Clients_DB.svg">
   <defs
      id="defs2">
     <marker
@@ -71,15 +71,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.9899495"
-     inkscape:cx="235.0525"
-     inkscape:cy="224.15696"
+     inkscape:cx="291.74667"
+     inkscape:cy="264.56306"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="2116"
-     inkscape:window-height="1505"
-     inkscape:window-x="618"
-     inkscape:window-y="260"
+     inkscape:window-width="2137"
+     inkscape:window-height="1080"
+     inkscape:window-x="401"
+     inkscape:window-y="917"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata5">
@@ -89,7 +89,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -98,6 +98,13 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-147)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.984375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect847"
+       width="149.92841"
+       height="149.92851"
+       x="0.03581943"
+       y="147.03577" />
     <g
        id="g4984"
        transform="matrix(1.0029355,0,0,1.0016699,99.068848,352.15475)">
