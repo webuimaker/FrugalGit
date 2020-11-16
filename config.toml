@@ -103,18 +103,21 @@ link= "https://www.engc.org.uk/"
 [[params.clients.boxLists]]
 icon= "img/Clients_FM.svg"
 title= "Manufacturers"
+url= "/"
 text= "We can provide digital design innovation to develop new products, or improve your existing ones."
 
 
 [[params.clients.boxLists]]
 icon= "img/Clients_DB.svg"
 title= "D&amp;B Contractors"
+url= "/"
 text= "We can build and manage 3D coordination models to win bids &amp; improve contract delivery."
 
 
 [[params.clients.boxLists]]
 icon= "img/Clients_M.svg"
 title= "Facility Managers"
+url= "/"
 text= "We can deliver facility &amp; project coordination models, for more efficient &amp; reliable facilities management."
 
 
