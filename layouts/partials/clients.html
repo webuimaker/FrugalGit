@@ -44,7 +44,12 @@
             </div>
 
             {{if eq $index 1 }}            
-              <div class="mt-5"><a href="#" class="btn-learn-more d-block {{.btnKlass}}" data-toggle="modal" data-target="#basicExampleModal"> {{.btnText | safeHTML}} </a></div>
+              <!-- <div class="mt-5"><a href="#" class="btn-learn-more d-block {{.btnKlass}}" data-toggle="modal" data-target="#basicExampleModal"> {{.btnText | safeHTML}} </a></div> -->
+              <div class="mt-5">
+
+              <a href="" class="btn-learn-more d-block {{.btnKlass}}" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/tom-frugaldesign/discovery'});return false;">{{.btnText | safeHTML}}</a>
+<!-- Calendly link widget end -->
+              </div>
             {{else}}
               <div class="mt-5"><a href="{{.btnUrl}}" class="btn-learn-more d-block {{.btnKlass}}" target="_blank"> {{.btnText | safeHTML}}  </a></div>
             {{end}}
