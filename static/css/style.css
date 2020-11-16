@@ -1938,7 +1938,7 @@ section {
   border: solid transparent 2px !important;
 }
 .btn-red:hover{
-  background: rgb(204,0,0);
+  background: rgb(255,70,70);
   border: solid rgb(180,205,55) 2px !important;
 }
 
@@ -1967,6 +1967,6 @@ section {
   border: solid transparent 2px !important;
 }
 .btn-blue:hover{
-  background: rgb(1,119,181);
-  border: solid rgb(0,165,245) 2px !important;
+  background: rgb(0,165,245);
+  border: solid rgb(180,205,55) 2px !important;
 }
