@@ -38,10 +38,10 @@
     </div>
     <div class="row">
       <div class="col-12">
-        <p class="mt-3"><a href="{{.Site.Params.button1.url | absURL }}" class="btn-learn-more  btn-red  d-block text-center" target="_blank">{{.Site.Params.button1.caption}}</a></p>
-        <p class="mt-3"><a href="{{.Site.Params.button2.url | absURL }}" class="btn-learn-more  btn-orange d-block text-center" target="_blank">{{.Site.Params.button2.caption}}</a></p>
+        <p class="mt-3"><a href="{{.Site.Params.button1.url | absURL }}" class="btn-learn-more  btn-red  d-block text-center" target="_blank">{{.Site.Params.button1.caption | safeHTML}}</a></p>
+        <p class="mt-3"><a href="{{.Site.Params.button2.url | absURL }}" class="btn-learn-more  btn-orange d-block text-center" target="_blank">{{.Site.Params.button2.caption  | safeHTML}}</a></p>
         <p class="mt-3">
-          <a href="" class="btn-learn-more   btn-green d-block text-center" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/tom-frugaldesign/hire-me'});return false;">{{.Site.Params.button3.caption}}</a>
+          <a href="" class="btn-learn-more   btn-green d-block text-center" onclick="Calendly.initPopupWidget({url: '{{.Site.Params.button3.url }}'});return false;">{{.Site.Params.button3.caption | safeHTML}}</a>
           <!-- Calendly link widget end -->
           
           

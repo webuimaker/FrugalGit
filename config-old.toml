@@ -56,7 +56,7 @@ title = "Frugal Design"
 [params.author]
   name= "Thomas H."
   image= "img/HireMe_ProfilePic.jpg"
-  position= "Chartered Engineer"
+  position= "Chartered Design  Engineer"
   expert= "3D CAD / CAE Expert" 
   rating= "5"
 
@@ -71,11 +71,11 @@ title = "Frugal Design"
     
   # About 
 [params.about]
-    title = "About"
-	  text = "Frugal Consultancy &amp; Design is a Yorkshire based company established in 2012 by Thomas Hartley to offer his freelance design engineering services. Tom set out to provide cost-effective, flexible, yet reliable design services to clients for whom traditional engineering consultancy hadn’t really delivered good value in the past."
-    textBottom = "Tom is a Chartered Mechanical Engineer, qualified Product Design & Manufacturing Engineer, and a highly skilled 3D modeller. As a member of both the Institute of Mechanical Engineering and the Institute of Engineering Designers, he works to the institutions' professional standards, as well as the ethical & sustainablity principles overseen by the Engineering Council and Royal Academy of Engineering."
+    title = "About Frugal"
+	  text = "Frugal Consultancy &amp; Design is a Yorkshire based company that was established in 2012 by Thomas Hartley, through which to offer freelance design engineering services. Tom set out to provide a cost-effective, flexible yet reliable design service to clients for whom traditional engineering consultancy hadn’t really delivered good value in the past."
+    textBottom = "Tom is a Chartered Mechanical Engineer, qualified Product Design & Manufacturing Engineer, and a highly skilled 3D modeller. As a member of both the Institute of Mechanical Engineering and the Institute of Engineering Designers, he works to their professional standards and upholds the ethical principles published by the Engineering Council and Royal Academy of Engineering."
     image = "img/banner.jpg"
-    buttonText = "View profile on Linkedin"
+    buttonText = "View my profile on Linkedin (1)"
     buttonUrl = "https://www.linkedin.com/in/tphartley/"
 
 [[params.about.imageLists]]
@@ -97,34 +97,34 @@ link= "https://www.engc.org.uk/"
 
   # Clients 
 [params.clients]
-    title = "Clients"
-	  subTitle = "Frugal provide flexible &amp; cost-effective freelance engineering design support for:"  
+    title = "Our Clients"
+	  subTitle = "We offer flexible &amp; cost-effective freelance engineering design support to:"  
 
 [[params.clients.boxLists]]
 icon= "img/Clients_FM.svg"
 title= "Manufacturers"
 url= "/"
-text= "Providing digital design innovation for developing new products, or improve your existing ones."
+text= "We can provide digital design innovation to develop new products, or improve your existing ones."
 
 
 [[params.clients.boxLists]]
 icon= "img/Clients_DB.svg"
 title= "D&amp;B Contractors"
 url= "/"
-text= "Building and managing 3D coordination models that win bids &amp; improve contract delivery."
+text= "We can build and manage 3D coordination models to win bids &amp; improve contract delivery."
 
 
 [[params.clients.boxLists]]
 icon= "img/Clients_M.svg"
 title= "Facility Managers"
 url= "/"
-text= "Delivering facility &amp; project coordination models, for more efficient &amp; reliable facilities management."
+text= "We can deliver facility &amp; project coordination models, for more efficient &amp; reliable facilities management."
 
 
 [[params.clients.belowSection]]
-title= ""
-image= "img/Client_Aims.png"
-btnText= "View Portfolio on Upwork"
+title= "Our aim is to help you:"
+image= "img/Client_Aims.jpg"
+btnText= "View our portfolio on Upwork (1)"
 btnUrl= "https://upwork.com/fl/thomash1089"
 btnKlass = "btn-orange"
 
@@ -135,102 +135,94 @@ btnKlass = "btn-orange"
 [[params.clients.belowSection.lists]]
  text = " To minimize waste and become leaner than your competitors;"
 [[params.clients.belowSection.lists]]
- text = "To maximize value-creation and your return-on-investment."
+ text = "To maximize value-creation and your return-on-investment in us."
 
 
  
 [[params.clients.belowSection]]
-title= ""
-image= "img/Client_Reqs.png"
-btnText= "Book a call to discuss your requirements"
+title= "We’re able to do this best when we work:"
+image= "img/Client_Reqs.jpg"
+btnText= "Book a call to find out if we're a good fit! (1)"
 btnUrl= "https://calendly.com/tom-frugaldesign/discovery"
 btnKlass = "btn-green"
 
 [[params.clients.belowSection.lists]]
-text = " On a fixed-price & fixed-scope basis;"
+ text = " Mostly from our own well-equipped office in Hull;"
 [[params.clients.belowSection.lists]]
-text = "In an open, honest, collaborative & mutually respectful way;"
+ text = " On a fixed-scope / fixed-price basis;"
+
 [[params.clients.belowSection.lists]]
-text = " Predominantly from our well-equipped East Yorkshire based office."
+ text = "In an open, honest, collaborative & mutually respectful way."
 
 # SERVICES
 
 [params.services]
     title = "Services"
-	  subTitle = "Frugal offer pre-packaged or bespoke freelance services built around three core specialisms:" 
+	  subTitle = "We offer a range of pre-packaged and bespoke freelance services built on our core specialisms of:" 
 
 
 [[params.services.boxLists]]
 image= "img/Services_3DModelling.svg"
 title= "3D CAD &amp; CAE Modelling"
-text= "Clear & accurate embodiment, quantification, testing & optimisation of your ideas, rapidly and at minimal cost."
+text= "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor."
 
 [[params.services.boxLists]]
 image= "img/Services_EngDesign.svg"
 title= "Engineering Design"
-text= "Process-driven development of elegant, imaginitive & technically viable solutions that best suit your specific constraints."
+text= "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor."
 
 [[params.services.boxLists]]
 image= "img/Services_Coordination.svg"
 title= "3D Coordination Modelling"
-text= "Comprehensive & evidence-based models that help you plan, manage, monitor & coordinate your projects."
+text= "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor."
 
 [[params.services.belowSection]]
-title= ""
-image= "img/Services_Skills.png"
-btnText= "View Portfolio on Upwork"
+title= "Skills:"
+image= "img/Services_Skills.jpg"
+btnText= "View our portfolio on Upwork (2)"
 btnUrl= "https://upwork.com/fl/thomash1089"
 btnKlass = "btn-orange"
 
 [[params.services.belowSection.lists]]
+text = " Mechanical & Static Structural Design"
+[[params.services.belowSection.lists]]
+text = " Plant, Site & Construction Design"
+[[params.services.belowSection.lists]]
 text = " Product Design"
-[[params.services.belowSection.lists]]
-text = " Mechanical Design"
-[[params.services.belowSection.lists]]
-text = " Static Structural Design"
-[[params.services.belowSection.lists]]
-text = " Site / Plant Layouts"
-[[params.services.belowSection.lists]]
-text = " Construction Planning / Sequencing"
 
 [[params.services.belowSection]]
-title= ""
-image= "img/Services_Experience.png"
-btnText= "Book a call to discuss your requirements"
+title= "Experience:"
+image= "img/Services_Experience.jpg"
+btnText= "Book a call to find out if we're a good fit! (2)"
 btnUrl= "https://calendly.com/tom-frugaldesign/discovery"
 btnKlass = "btn-green"
 
 [[params.services.belowSection.lists]]
-text = " Nuclear Decommissioning"
+ text = " Lorem ipsum dolor sit amet consectetuer adipiscing elit"
 [[params.services.belowSection.lists]]
-text = " Green & Sustainable Products"
+ text = " Lorem ipsum dolor sit amet consectetuer adipiscing elit"
 [[params.services.belowSection.lists]]
-text = " Bridges & Civil Infrastructure"
-[[params.services.belowSection.lists]]
-text = " Energy & Renewables"
-[[params.services.belowSection.lists]]
-text = " Process & Power"
-
+ text = " Lorem ipsum dolor sit amet consectetuer adipiscing elit"
 
 # Pricing
 
 [params.pricing]
 title = "PRICING"
-subTitle = "To match your budget, whether you want something rough & ready, polished & pretty, or fully designed & detailed:" 
+subTitle = "We're comfortable adapting to suit the needs & budget of your project. Whether you want rough & ready, polished & pretty or fully designed & detailed, we'll be able to help." 
 
 [[params.pricing.list]]
-text= ""
+text= "We have a range of pre-packaged, fixed-price offers that provide a fair outline of our pricing levels and the kind of output you can expect. These might fit your needs exactly, or can be tweaked & adjusted if they’re almost-but-not-quite what you need."
 image= "img/Pricing_Fiverr.jpg"
 alt =""
-buttonText = "Browse prices on Fiverr"
+buttonText = "View pre-packaged projects on Fiverr (1)"
 buttonUrl= "https://www.fiverr.com/tphartley"
 buttonKlass= "btn-red"
 
 [[params.pricing.list]]
-text= ""
+text= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat ex ea commodo consequat."
 image= "img/Pricing_Direct.jpg"
 alt =""
-buttonText = "Request a quote direct <br>(for better rates!)"
+buttonText = "Request a direct quote for best rates (1)"
 buttonUrl= "https://calendly.com/tom-frugaldesign/quote-me"
 buttonKlass= "btn-green"
 
@@ -259,30 +251,6 @@ name = "Loading Equipment Fabricator, Chesterfield"
 position= "Managing Director"
 image= "img/Services_EngDesign.svg"
 text= "Tom developed a baseline information model on our biggest selling product, which allowed us to view it in ways we’d never thought about before. He helped us brainstorm all kinds of new ideas, which he worked up into several design models for comparison with the baseline. Through many small design &amp; production changes, we were able to eliminate at least 20% of the product’s overall manufacturing cost, without affecting the end-user experience at all!"
-
-[[params.testimonials]]
-name = "Civil / Structures Contractor, Hull"
-position= "Engineering Director"
-image= "img/Services_Coordination.svg"
-text= "The project has come on leaps and bounds and the model represents great value in its own right, but it’s the immeasurable other things that added the real value, like how you engaged our people & teased out their real needs & preferences early on in the project."
-
-[[params.testimonials]]
-name = "Client Type 1, Location 1"
-position= "Position 1"
-image= "img/Services_Coordination.svg"
-text= "Fewer monthly meetings & site visits alone saved us more than we invested in the model."
-
-[[params.testimonials]]
-name = "Client Type 2, Location 2"
-position= "Position 2"
-image= "img/Services_Coordination.svg"
-text= "Investing 25% of the tender budget in the model saved about 50% of our overall costs."
-
-[[params.testimonials]]
-name = "Client Type 3, Location 3"
-position= "Position 3"
-image= "img/Services_Coordination.svg"
-text= "The design costs had been fully recovered within the first 3 months of production & sales."
 
 [params.footer]
 copyright = " Frugal Consultancy &amp; Design Ltd.<br>Registered in England &amp; Wales | Company No. 08241771 | VAT No. GB 166 493 575"

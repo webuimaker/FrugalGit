@@ -47,7 +47,7 @@
               <!-- <div class="mt-5"><a href="#" class="btn-learn-more d-block {{.btnKlass}}" data-toggle="modal" data-target="#basicExampleModal"> {{.btnText | safeHTML}} </a></div> -->
               <div class="mt-5">
 
-              <a href="" class="btn-learn-more d-block {{.btnKlass}}" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/tom-frugaldesign/discovery'});return false;">{{.btnText | safeHTML}}</a>
+              <a href="" class="btn-learn-more d-block {{.btnKlass}}" onclick="Calendly.initPopupWidget({url: '{{.btnUrl}}'});return false;">{{.btnText | safeHTML}}</a>
 <!-- Calendly link widget end -->
               </div>
             {{else}}

@@ -21,8 +21,8 @@
 
         <div class="mt-5">
 
-          <a href="" class="btn-learn-more d-block text-center {{.btnKlass}}" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/tom-frugaldesign/discovery'});return false;">{{.buttonText | safeHTML}}</a>
-<!-- Calendly link widget end -->
+          <a href="" class="btn-learn-more d-block text-center {{.btnKlass}}" onclick="Calendly.initPopupWidget({url: '{{.buttonUrl}}'});return false;">{{.buttonText | safeHTML}}</a>
+          <!-- Calendly link widget end -->
           </div>
       {{else}}
         <div class="mt-5"><a href="{{.buttonUrl}}" class="btn-learn-more d-block text-center {{.buttonKlass}}" target="_blank">{{.buttonText}} </a></div>
