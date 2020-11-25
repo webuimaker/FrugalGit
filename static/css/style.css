@@ -1036,7 +1036,7 @@ section {
   padding: 80px 0;
   background: url("../img/bg_Sheffield.jpg") no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: cover !important;
   position: relative;
   max-height:100vh;
 }
