@@ -17,7 +17,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .sec-height{
   min-height: 100vh;
@@ -599,7 +599,7 @@ section {
 .about .container {
   
 }
-.about .font-sz{ font-family:"Raleway", sans-serif ;}
+.about .font-sz{ font-family:"Open Sans", sans-serif ;}
 /* .mt-5{ text-align:right;} */
 .about .count-box {
   padding: 60px 0;
@@ -625,7 +625,7 @@ section {
 .about .count-box p {
   padding: 5px 0 0 0;
   margin: 0 0 0 60px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 14px;
   color: #2e4b5e;
@@ -1033,7 +1033,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background: url("../img/bg_Sheffield.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1618,7 +1618,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #fff;
 }
 
