@@ -535,7 +535,8 @@ h1, h2, h3, h4, h5, h6 {
   #hero h1 {
     font-size: 60px;
     line-height: 36px;
-    margin-bottom: 30px;
+    margin-bottom: 30px;    
+    font-family: "Droid Seriff";
   }
   #hero h2 {
     font-size: 36px;
@@ -1040,6 +1041,8 @@ section {
   max-height:100vh;
 }
 
+
+
 .testimonials::before {
   content: "";
   position: absolute;
@@ -1122,6 +1125,21 @@ section {
 .testimonials .owl-dot.active {
   background-color: #b4cd37 !important;
 }
+
+
+@media (max-width: 768px) {
+  .testimonials .owl-carousel{
+    width: 80%;
+  }
+  .testimonials .owl-prev{
+    left:-30px  !important;
+  }
+  .testimonials .owl-next{
+    right:-30px  !important;
+  }
+}
+
+
 
 @media (min-width: 1024px) {
   .testimonials {
