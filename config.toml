@@ -49,8 +49,8 @@ title = "Frugal Design"
 
   logo = "img/logo_Frugal_full.svg"
   # To provide some metadata for search engines feel free to add a few information about you and your website.
-  name = "Frugal Consultancy & Design Limited"
-  description = "Frugal is a Digital Engineering Design house that works smart to reduce & eliminate wastes, risks & complications from your projects."
+  name = "Frugal Consultancy &amp; Design Limited"
+  description = "Cost-effective freelance engineering design using 3D CAD &amp; CAE modelling."
   email = ""
 
 [params.author]
@@ -65,33 +65,36 @@ title = "Frugal Design"
 [params.hero]
     title = "frugal"
     subtitle = "adjective  | ˈfrü-gəl"
-	  text = "Cost-effective freelance engineering design using 3D CAD & CAE modelling"
-    image = "img/banner.jpg"
+	  text = "Cost-effective freelance engineering design using 3D CAD &amp; CAE modelling"
+    image = "img/bg_Hull.jpg"
 
     
   # About 
 [params.about]
     title = "About"
 	  text = "Frugal Consultancy &amp; Design is a Yorkshire based company established in 2012 by Thomas Hartley to offer his freelance design engineering services. Tom set out to provide cost-effective, flexible, yet reliable design services to clients for whom traditional engineering consultancy hadn’t really delivered good value in the past."
-    textBottom = "Tom is a Chartered Mechanical Engineer, qualified Product Design & Manufacturing Engineer, and a highly skilled 3D modeller. As a member of both the Institute of Mechanical Engineering and the Institute of Engineering Designers, he works to the institutions' professional standards, as well as the ethical & sustainablity principles overseen by the Engineering Council and Royal Academy of Engineering."
-    image = "img/banner.jpg"
+    textBottom = "Tom is a Chartered Mechanical Engineer, qualified Product Design &amp; Manufacturing Engineer, and a highly skilled 3D modeller. As a member of both the Institute of Mechanical Engineering and the Institute of Engineering Designers, he works to the institutions' professional standards, as well as the ethical &amp; sustainability principles overseen by the Engineering Council and Royal Academy of Engineering."
+    image = "img/Header_Hull.jpg"
     buttonText = "View profile on Linkedin"
     buttonUrl = "https://www.linkedin.com/in/tphartley/"
 
 [[params.about.imageLists]]
-url= "img/img1.png"
+url= "img/About_IMECHE.png"
 alt= "im1"
 link= "https://www.imeche.org/"
+
 [[params.about.imageLists]]
-url= "img/img2.png"
+url= "img/About_IED.png"
 alt= "im1"
 link= "https://www.institution-engineering-designers.org.uk/"
+
 [[params.about.imageLists]]
-url= "img/img3.png"
+url= "img/About_RAE.png"
 alt= "im1"
 link= "https://www.raeng.org.uk/"
+
 [[params.about.imageLists]]
-url= "img/img4.png"
+url= "img/About_EC.png"
 alt= "im1"
 link= "https://www.engc.org.uk/"
 
@@ -101,24 +104,24 @@ link= "https://www.engc.org.uk/"
 	  subTitle = "Frugal provide flexible &amp; cost-effective freelance engineering design support for:"  
 
 [[params.clients.boxLists]]
-icon= "img/Clients_FM.svg"
+icon= "img/Clients_M.svg"
 title= "Manufacturers"
 url= "/"
-text= "Providing digital design innovation for developing new products, or improve your existing ones."
+text= "Providing digital innovation to help you improve your existing designs and develop new products."
 
 
 [[params.clients.boxLists]]
 icon= "img/Clients_DB.svg"
 title= "D&amp;B Contractors"
 url= "/"
-text= "Building and managing 3D coordination models that win bids &amp; improve contract delivery."
+text= "Building and managing 3D coordination models to help you win bids &amp; improve your contract delivery."
 
 
 [[params.clients.boxLists]]
-icon= "img/Clients_M.svg"
+icon= "img/Clients_FM.svg"
 title= "Facility Managers"
 url= "/"
-text= "Delivering facility &amp; project coordination models, for more efficient &amp; reliable facilities management."
+text= "Delivering facility &amp; project coordination models, to help you improve your workflows &amp; productivity."
 
 
 [[params.clients.belowSection]]
@@ -131,9 +134,9 @@ btnKlass = "btn-orange"
 
 
 [[params.clients.belowSection.lists]]
- text = " To modernize, innovate, and become more sustainable;"
+ text = " To modernize, innovate, and become more sustainable."
 [[params.clients.belowSection.lists]]
- text = " To minimize waste and become leaner than your competitors;"
+ text = " To minimize waste and become leaner than your competitors."
 [[params.clients.belowSection.lists]]
  text = "To maximize value-creation and your return-on-investment."
 
@@ -143,13 +146,13 @@ btnKlass = "btn-orange"
 title= ""
 image= "img/Client_Reqs.png"
 btnText= "Book a call to discuss your requirements"
-btnUrl= "https://calendly.com/tom-frugaldesign/discovery"
+btnUrl= "https://calendly.com/tom-frugaldesign/discuss"
 btnKlass = "btn-green"
 
 [[params.clients.belowSection.lists]]
-text = " On a fixed-price & fixed-scope basis;"
+text = " On a fixed-price & fixed-scope basis."
 [[params.clients.belowSection.lists]]
-text = "In an open, honest, collaborative & mutually respectful way;"
+text = "In an open, honest, collaborative & mutually respectful way."
 [[params.clients.belowSection.lists]]
 text = " Predominantly from our well-equipped East Yorkshire based office."
 
@@ -163,17 +166,17 @@ text = " Predominantly from our well-equipped East Yorkshire based office."
 [[params.services.boxLists]]
 image= "img/Services_3DModelling.svg"
 title= "3D CAD &amp; CAE Modelling"
-text= "Clear & accurate embodiment, quantification, testing & optimisation of your ideas, rapidly and at minimal cost."
+text= "For clear &amp; accurate embodiment, quantification, testing &amp; optimisation of your ideas, rapidly and at minimal cost."
 
 [[params.services.boxLists]]
 image= "img/Services_EngDesign.svg"
 title= "Engineering Design"
-text= "Process-driven development of elegant, imaginitive & technically viable solutions that best suit your specific constraints."
+text= "Process-driven development of elegant, imaginative &amp; technically viable solutions that best suit your specific constraints."
 
 [[params.services.boxLists]]
 image= "img/Services_Coordination.svg"
 title= "3D Coordination Modelling"
-text= "Comprehensive & evidence-based models that help you plan, manage, monitor & coordinate your projects."
+text= "Comprehensive &amp; evidence-based models that help you plan, manage, monitor &amp; coordinate your projects."
 
 [[params.services.belowSection]]
 title= ""
@@ -197,7 +200,7 @@ text = " Construction Planning / Sequencing"
 title= ""
 image= "img/Services_Experience.png"
 btnText= "Book a call to discuss your requirements"
-btnUrl= "https://calendly.com/tom-frugaldesign/discovery"
+btnUrl= "https://calendly.com/tom-frugaldesign/discuss"
 btnKlass = "btn-green"
 
 [[params.services.belowSection.lists]]
@@ -230,59 +233,43 @@ buttonKlass= "btn-red"
 text= ""
 image= "img/Pricing_Direct.jpg"
 alt =""
-buttonText = "Request a quote direct <br>(for better rates!)"
-buttonUrl= "https://calendly.com/tom-frugaldesign/quote-me"
+buttonText = "Request a quote direct (for better rates!)"
+buttonUrl= "https://calendly.com/tom-frugaldesign/quote"
 buttonKlass= "btn-green"
 
 
 
 # Testimonials
 [params.testimonialsBackground]
- image= "img/testimonials-bg.jpg"
+ image= "img/bg_Sheffield.jpg"
 
 [[params.testimonials]]
-name = "Nuclear Plant, Cheshire"
-position= "Programme Manager"
-image= "img/Services_3DModelling.svg"
-text= "Tom developed a full 3D building &amp; process systems model that enabled comprehensive design construction &amp; maintenance reviews to be carried out early in the project life-cycle. It really shone a light on things, highlighting risks we hadn’t even seen, and allowed us to hold our sub-contractors to account with much less effort. We were able to use the model for many other stakeholder engagements and briefing sessions too, which were always well-received &amp; productive."
-
-
-[[params.testimonials]]
-name = "D&amp;B Contractor, Hull"
-position= "Designer"
-image= "img/Services_Coordination.svg"
-text= "Frugal are able to consume &amp; make sense of huge amounts of information in a short space of time, always coming back to us with content we can use directly in our proposals. They’ve helped us impress clients &amp; win work on such a diverse range of bids over the years: bridge access &amp; maintenance; bulk handling &amp; storage; hazardous waste processing; heat-recovery systems; even a lucrative (and long-shot) place on a huge frame-work contract at one point!"
+name = "Programme Manager"
+position= "Nuclear Plant, Cheshire"
+image= "img/Clients_FM.svg"
+text= "Tom developed a full 3D building &amp; process systems model that enabled comprehensive design construction &amp; maintenance reviews to be carried out early in our project's life cycle. The model really shone a light on things, highlighted risks we hadn’t even seen, and allowed us to hold our sub-contractors to account with much less effort. We were able to use the model for many other stakeholder engagements and briefing sessions as well, which were always well-received &amp; very productive."
 
 
 [[params.testimonials]]
-name = "Loading Equipment Fabricator, Chesterfield"
-position= "Managing Director"
-image= "img/Services_EngDesign.svg"
-text= "Tom developed a baseline information model on our biggest selling product, which allowed us to view it in ways we’d never thought about before. He helped us brainstorm all kinds of new ideas, which he worked up into several design models for comparison with the baseline. Through many small design &amp; production changes, we were able to eliminate at least 20% of the product’s overall manufacturing cost, without affecting the end-user experience at all!"
+name = "Design Director"
+position= "D&amp;B Contractor, Sheffield"
+image= "img/Clients_DB.svg"
+text= "Tom is able to consume &amp; make sense of huge amounts of information in a short space of time, always keeps us up to date, and regularly delivers content we can use directly in our proposals. He's helped us impress clients &amp; win work on a diverse range of bids over the years... bridge access &amp; maintenance; bulk handling &amp; storage; hazardous waste processing; heat-recovery systems. Once his work even helped us win a very long-shot & lucrative place on a huge long-term frame-work agreement!"
+
 
 [[params.testimonials]]
-name = "Civil / Structures Contractor, Hull"
-position= "Engineering Director"
-image= "img/Services_Coordination.svg"
-text= "The project has come on leaps and bounds and the model represents great value in its own right, but it’s the immeasurable other things that added the real value, like how you engaged our people & teased out their real needs & preferences early on in the project."
+name = "Managing Director"
+position= "Loading Equipment Fabricator, Chesterfield"
+image= "img/Clients_M.svg"
+text= "Tom developed a baseline information model on our biggest selling product, which allowed us to view the product in ways we’d never thought about before. He helped us brainstorm all kinds of new ideas, which he worked up into several design models for baseline comparisons. Through many small design &amp; production changes, we were able to eliminate at least 20% of the product’s overall manufacturing cost, without affecting functionality or end-user experience at all!"
+
 
 [[params.testimonials]]
-name = "Client Type 1, Location 1"
-position= "Position 1"
-image= "img/Services_Coordination.svg"
-text= "Fewer monthly meetings & site visits alone saved us more than we invested in the model."
+name = "Engineering Director"
+position= "Civil / Structures Contractor, Hull"
+image= "img/Clients_DB.svg"
+text= "The project has come on leaps and bounds and althouth the model represents great value in its own right, it’s the immeasurable other things that added the real value, like how he engaged our people &amp; teased out their real needs &amp; preferences very early on in the project."
 
-[[params.testimonials]]
-name = "Client Type 2, Location 2"
-position= "Position 2"
-image= "img/Services_Coordination.svg"
-text= "Investing 25% of the tender budget in the model saved about 50% of our overall costs."
-
-[[params.testimonials]]
-name = "Client Type 3, Location 3"
-position= "Position 3"
-image= "img/Services_Coordination.svg"
-text= "The design costs had been fully recovered within the first 3 months of production & sales."
 
 [params.footer]
 copyright = " Frugal Consultancy &amp; Design Ltd.<br>Registered in England &amp; Wales | Company No. 08241771 | VAT No. GB 166 493 575"
@@ -297,4 +284,4 @@ url= "https://upwork.com/fl/thomash1089"
 
 [params.button3]
 caption = "Hire me Direct"
-url= "http://calendly.com/tom-frugaldesign/hire-me"
+url= "https://calendly.com/tom-frugaldesign/hire"
